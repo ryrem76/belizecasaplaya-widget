@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Belize Casa Playa Booking</title>
+</head>
+<body>
+  <div id="hostaway-calendar-widget"></div>
+  <script src="https://d2q3n06xhbi0am.cloudfront.net/calendar.js"></script>
+  <script>
+    window.hostawayCalendarWidget({
+      baseUrl: 'https://belizecasaplaya.com/',
+      listingId: 40467,
+      numberOfMonths: 2,
+      openInNewTab: true,
+      font: 'Open Sans',
+      rounded: true,
+      button: {
+        action: 'checkout',
+        text: 'Book Now',
+      },
+      clearButtonText: 'Clear dates',
+      color: {
+        mainColor: '#00a3a3',
+        frameColor: '#000000',
+        textColor: '#000000',
+      },
+    });
+  </script>
+</body>
+</html>
